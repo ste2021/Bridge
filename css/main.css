@@ -1,0 +1,72 @@
+.img-1{
+   
+    color: aliceblue;   
+    background-image: linear-gradient(to bottom, transparent 0%, rgb(31, 6, 100) 90%), url(../img/delivery.jpg);
+    background-size: contain;
+    width: 75%;
+    height: 26em;
+}
+.text-1{
+    font-weight: bold;
+    font-size: 2.2em;
+    text-align: left;
+    width: 35%;
+    float: right;
+    margin: 5% 2px 0 -14px
+}
+.text-1header{
+    margin: 0 0 10px;
+    padding: 4%;
+}
+.bloco-img{  
+    width: 35%;
+    height: 26em;
+    float: right;
+    background-color: #000000;
+  
+    margin: 0 -67% 0 0;
+    float: right;
+}
+.text-2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: #00D73E;
+    padding: 5%;
+    margin: 10% 0 0 4%; 
+    text-align: left;   
+}
+.body1{
+    display: flex;
+ 
+}
+
+.grid{
+    display: flex;
+    /* grid-template-columns: 13fr 10fr 4fr; */
+    margin: 0% 0% 0% 0%;
+    padding: 1%;
+}
+.card-img-top {
+    width: fit-content;
+}
+.card{
+    padding: 06%;
+    background-color: rgb(250, 246, 241);
+   
+}
+.card-body{
+    padding: 02%;
+}
+
+
+.botao-inicio{
+    background-color: rgb(31, 6, 100);
+    font-size: 2.0em;
+	color: mintcream;
+    font-size: 1.2em;
+    padding:  03%;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 04%;
+}

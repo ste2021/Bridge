@@ -1,0 +1,67 @@
+.contato{
+    width: 100%;
+    height: auto;
+   
+    color: rgb(45, 12, 65);
+}
+.cadastre-se{
+    font-size: 2.0em;
+    padding: 02%;
+    text-align: center;
+   
+}
+#cadastre-se{
+    background-color: rgb(31, 6, 100);
+    text-align: center;
+	color: mintcream;
+    font-size: 1.0em;
+    padding:  01%;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 01%;
+}
+.img-login{
+    background-size: contain;
+}
+.form-login{
+    display: flex;
+}
+.figura-login {
+    margin: 01%;
+    width: 50%;
+
+}
+.form-c{
+    margin: 01% 0 0 02%;
+    padding: 02%;
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+    height: fit-content;
+    float: right;
+    background-color: #e7d7ec;
+    border: 2px solid rgb(45, 12, 65);
+}
+.form-l{
+    margin: 05%;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.0em;
+
+}
+.btn-block{
+    width: 50%;
+}
+.botao-login{
+    background-color: rgb(31, 6, 100);
+    font-size: 2.0em;
+    text-align: center;
+	color: mintcream;
+    font-size: 1.2em;
+    padding:  01%;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 04%;
+    
+}

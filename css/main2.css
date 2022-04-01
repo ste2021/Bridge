@@ -1,0 +1,97 @@
+
+.secoes{
+    width: 100%;
+    height: 16em;
+    background-color: #323232;
+    color: beige;
+    margin: 02% 0 0 0;    
+}
+
+.text-3 ul li a{
+    font-size: 18px;
+    font-weight: bold;
+    color: beige;
+    margin: 0 0 0 02%;
+}
+.text-32{
+    font-size: 20px;
+    font-weight: bold;
+}
+.text-3{
+    margin: 2% 0% 0 3%;
+}
+.footer-links{
+    text-decoration: none;
+}
+
+footer{
+    padding: 01%;
+    text-align: center;
+    background-color: #FB6B62;
+    color: #1E2430;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+.text-footer{
+    text-align: center;
+    font-weight: bold;
+    margin: 01% 02% 0 0;
+}
+
+.footer {
+    background-color: rgb(204, 197, 197);
+  
+}
+.botao-inicio{
+    background-color: rgb(31, 6, 100);
+    font-size: 2.0em;
+	color: mintcream;
+    font-size: 1.2em;
+    padding:  03%;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 04%;
+}
+.scrolltop {
+	display:none;
+	width:100%;
+	margin:0 auto;
+	position:fixed;
+	bottom:20px;
+	right:10px;	
+}
+.scroll {
+	position:absolute;
+	right:20px;
+	bottom:20px;
+	background:#b2b2b2;
+	background:rgba(178,178,178,0.7);
+	padding:20px;
+	text-align: center;
+	margin: 0 0 0 0;
+	cursor:pointer;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 		
+}
+.scroll:hover {
+	background:rgba(178,178,178,1.0);
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 		
+}
+.scroll:hover .fa {
+	padding-top:-10px;
+}
+.scroll .fa {
+	font-size:30px;
+	margin-top:-5px;
+	margin-left:1px;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 	
+}

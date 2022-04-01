@@ -1,0 +1,29 @@
+
+
+.form-cadastro{
+    margin: 01%;
+    background-color: #e7e0e9;
+    border: 2px solid black;
+    color: rgb(31, 6, 100);
+}
+.cadastro-text{
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+}
+.botao{
+    background-color: rgb(31, 6, 100);
+    font-size: 2.0em;
+    text-align: center;
+	color: mintcream;
+    font-size: 1.5em;
+    padding:  01%;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 04%;
+    font-family: Montserrat;
+}
+.card-img-top{
+    width: 250px;
+    height: 140px;
+}

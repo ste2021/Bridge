@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Bridge</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/main2.css">
+    <link rel="stylesheet" href="../css/comofunciona.css">
+    <link rel ="preconnect" href = "https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="../img/favicon.png">
+    
+</head>
+<body>
+    <header> 
+        <div class="menu">
+            <div class="li">
+                <ul>                   
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="./comofunciona.html">Como funciona</a></li>
+                    <!-- <li><a href="./clientes.html">Clientes</a></li>
+                    <li><a href="./entregadores.html">Entregadores</a></li> -->
+                    <li><a href="./cadastro.html">Cadastro</a></li>
+                    <li><a href="./login.html">Login</a></li>    
+                    <button type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                </ul>
+            </div>
+            <div class="img-header">
+                <img class="logo" src="../img/bridgelogo.png">     
+            </div>
+             
+        </div>
+    </header>
+    <main>
+        <section class="img-1"> 
+            <div class="text-1">
+                <p class="text-1header">Olá.</p>
+                <p class="text-1header">
+                    Bem vindo ao nosso espaço de Delivery 
+                    Comunitário da região de Araras/SP
+                </p>                    
+            </div>     
+        
+            <div class="bloco-img">
+                <div class="text-2">
+                    "Correndo para você não correr"    
+                </div>      
+            </div>
+        </section>
+        <section class="comofunciona">
+            <p class="text-comofunciona">
+                O objetivo desse site é integrar motoboys, clientes e entregadores, transformando a vida do consumidor, podendo contar com profissionais freelancer's que farão entregas conforme sua zona de localização.
+            </p>
+           
+        </section>
+    
+        <section class="body2">
+            <div class="cronometro">
+                <audio id="sound" src="../audio/alarm.mp3" style="display: none;"> </audio> 
+                    <div id="titulo-cronometro">
+                        <p class="titulo-c">
+                            Anote aqui o tempo que foi passado no atendimento! No final terá uma surpresa! 
+                        </p>
+                           
+                    </div>
+                <div class="container">
+            
+                    <h2 class="minutossegundos">Minutos</h2>
+                    <select id="minutos" name="minutos"></select>
+                    
+                    <h2 class="minutossegundos">Segundos</h2>
+                    <select id="segundos" name="segundos"></select>
+                    <br>
+                    <br>
+                    <button id="comecar">Começar!</button>
+                    
+                    <div id="display">
+                        <h3></h3>
+                    </div><!--display-->
+            
+            </div><!--container-->
+            </div>
+    
+        </section>
+
+   
+        <section class="secoes">
+            <div class="text-3">
+                <p class="text-32">
+                    Seções
+                </p>
+                <ul class="footer-links">                   
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="./comofunciona.html">Como funciona</a></li>
+                    <li><a href="./clientes.html">Clientes</a></li>
+                    <li><a href="./entregadores.html">Entregadores</a></li>
+                    <li><a href="./cadastro.html">Cadastro</a></li>
+                    <li><a href="./login.html">Login</a></li>             
+                </ul>
+            </div>
+        </section>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="../js/index.js"></script>
+        <script src="../js/cronometro.js"></script>
+        
+        <footer>
+            <div class="text-footer">
+                Desenvolvido por Omega, 2021
+            </div>
+           
+        </footer>
+
+    </main>
+    <div>
+       
+       
+
+
+        
+       
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/main2.css">
+  <link rel="stylesheet" href="../css/clientes.css">
+ 
+  <link rel="shortcut icon" href="../img/favicon.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <title>Clientes</title>
+</head>
+<body>
+  <header> 
+       
+    <div class="menu">
+        <div class="li">
+            <ul>                   
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="./comofunciona.html">Como funciona</a></li>
+                <li><a href="./clientes.html">Clientes</a></li>
+                <li><a href="./entregadores.html">Entregadores</a></li>
+                <li><a href="./cadastro.html">Cadastro</a></li>
+                <li><a href="./login.html">Login</a></li>  
+                <button type="submit"><i class="glyphicon glyphicon-search"></i></button>
+            </ul>
+        </div>
+        <div class="img-header">
+            <img class="logo" src="../img/bridgelogo.png">     
+        </div>
+         
+    </div>
+</header>
+<main>
+    <section class="img-1"> 
+        <div class="text-1">
+            <p class="text-1header">Olá.</p>
+            <p class="text-1header">
+                Bem vindo ao nosso espaço de Delivery 
+                Comunitário da região de Araras/SP
+            </p>                    
+        </div>     
+    
+        <div class="bloco-img">
+            <div class="text-2">
+                "Correndo para você não correr"    
+            </div>      
+        </div>
+    </section>
+  
+    <div class="content">      
+      <!--FORMULÁRIO DE LOGIN-->
+      <div id="login">
+        <form method="post" action=""> 
+          <h1>Login</h1> 
+          <p> 
+            <label for="email_login">Seu e-mail</label>
+            <input id="email_login" name="email_login" required="required" type="text" placeholder="contato@h123.com"/>
+          </p>
+          
+          <p> 
+            <label for="senha_login">Sua senha</label>
+            <input id="senha_login" name="senha_login" required="required" type="password" placeholder="1234" /> 
+          </p>
+          
+          <p> 
+            <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
+            <label for="manterlogado">Manter-me conectado </label>
+          </p>
+          
+          <p> 
+            <input type="submit" value="Logar" /> 
+          </p>
+          
+          <p class="link">
+            Ainda não possui uma conta?
+            <a href="#paracadastro">Cadastre-se!</a>
+          </p>
+        </form>
+      </div>
+
+      <!--FORMULÁRIO DE CADASTRO-->
+      <div id="cadastro">
+        <form method="post" action=""> 
+          <h1>Cadastro</h1> 
+          
+          <p> 
+            <label for="nome_cad">Seu nome completo</label>
+            <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Luiz Augusto Viana" />
+          </p>
+          
+          <p> 
+            <label for="nome_cad">Nome da Mãe</label>
+            <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Carla Viana" />
+          </p>
+          
+          <p> 
+            <label for="email_cad">Seu endereço</label>
+            <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@123.com"/> 
+          </p>
+          
+          <p> 
+            <label for="senha_cad">Seu bairro</label>
+            <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="1234"/>
+          </p>
+          
+          <p> 
+            <label for="nome_cad">Sua cidade</label>
+            <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Araras, São Paulo" />
+          </p>
+          <p> 
+            <label for="nome_cad">UF</label>
+            <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="SP" />
+          </p>
+          <p> 
+            <label for="nome_cad">CPF</label>
+            <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="1234567812" />
+          </p>
+          <p> 
+            <label for="nome_cad">Data de nascimento</label>
+            <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="01/09/1998" />
+          </p>
+          
+          <p> 
+            <input type="submit" value="Cadastrar"/> 
+          </p>
+          
+          <p class="link">  
+            Já possui uma conta?
+            <a href="#paralogin">  Login </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div> 
+  
+  <script src="../js/index.js"></script>
+         
+  
+
+</body>
+</html>
